@@ -1,0 +1,24 @@
+@import "~video-react/styles/scss/video-react";
+@import './styles/Variables.scss';
+@import './styles/Navbar.scss';
+@import './styles/Investors.scss';
+@import './styles/Welcome.scss';
+@import './styles/Leadership.scss';
+@import './styles/Releases.scss';
+@import './styles/Testimonials.scss';
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
