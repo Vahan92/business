@@ -1,14 +1,14 @@
 import React from 'react'
-import { Row, Col, Card, Button, Container } from 'react-bootstrap';
+import { Row, Col, Container } from 'react-bootstrap';
 
 function Releases() {
   return (
     <Container className="releases">
       <Row>
-        <Col>
+        <Col lg={6} sm={12}>
           <h2>Press Realese</h2>
         </Col>
-        <Col>
+        <Col lg={6} sm={12}>
           <Row>
             <Col md={12} lg={6}>
               <img src="https://dynamicmedia.zuza.com/zz/m/original_/f/9/f9d8e816-6bcf-4ade-8c00-5c18d9d94e3a/PGBE_20130905_Final_A3_01_I001_Gallery.jpg" alt="" />

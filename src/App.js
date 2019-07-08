@@ -8,6 +8,9 @@ import Services from './components/Services';
 import Leadership from './components/Leadership';
 import Releases from './components/Releases';
 import Testimonials from './components/Testimonials';
+import Blog from './components/Blog';
+import ContactUs from './components/ContactUs';
+import Footer from './components/Footer';
 
 import './App.scss';
 
@@ -23,6 +26,9 @@ function App() {
       <Leadership/>
       <Releases/>
       <Testimonials/>
+      <Blog/>
+      <ContactUs/>
+      <Footer/>
     </div>
   );
 }

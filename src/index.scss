@@ -6,6 +6,10 @@
 @import './styles/Leadership.scss';
 @import './styles/Releases.scss';
 @import './styles/Testimonials.scss';
+@import './styles/Blog.scss';
+@import './styles/ContactUs.scss';
+@import "./styles/Variables.scss";
+@import "./styles/Services.scss";
 
 
 body {
@@ -15,10 +19,29 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: $main-text
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+a {
+  color: $main-purple;
+}
+
+.text-main {
+    color: #7f4782;
+}
+
+button:hover, a:hover {
+  background-color: #7f4782 !important;
+  border-color: #7f4782 !important;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
 }
 

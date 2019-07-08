@@ -3,10 +3,17 @@
     div {
       h2 {
         text-align: center;
-        font-size: 2.5re;
+        font-size: 2.5rem;
+        color: $main-purple;
       }
       div {
-        div {                   
+        div {
+          p:first-child {
+            color: black;
+          }
+          p:nth-child(2) {
+            color: #6c757d;
+          }            
           img {
             width: 100%;
             height: auto;

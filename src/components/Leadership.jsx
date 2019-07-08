@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Row, Col, Card, Button, Container } from 'react-bootstrap';
+const FontAwesome = require('react-fontawesome')
 
 class Solutions extends Component {
   render() {
@@ -10,45 +11,96 @@ class Solutions extends Component {
           <Col lg={4} md={6} xsm={12} >
             <Card>
               <div>
-                <Card.Img style={{ borderRadius: '50%' }} variant="top" roundedCircle src="https://avatars0.githubusercontent.com/u/1024025?s=460&v=4" />
+                <Card.Img style={{ borderRadius: '50%' }} variant="top" src="https://avatars0.githubusercontent.com/u/1024025?s=460&v=4" />
               </div>
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title style={{ color: '#b8b8b8' }}>Card Title</Card.Title>
                 <Card.Text>
                   Some quick example text to build on the card title and make up the bulk of
                   the card's content.
             </Card.Text>
-                <p>Read more</p>
+                <Button>
+                  <FontAwesome
+                    name="facebook"
+                    size="1x"
+                    style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
+                  /></Button>
+                <Button>
+                  <FontAwesome
+                    name="twitter"
+                    size="1x"
+                    style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
+                  /></Button>
+                <Button>
+                  <FontAwesome
+                    name="instagram"
+                    size="1x"
+                    style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
+                  /></Button>
               </Card.Body>
             </Card>
           </Col>
           <Col lg={4} md={6} xsm={12} >
             <Card>
               <div>
-                <Card.Img style={{ borderRadius: '50%' }} variant="top" roundedCircle src="https://lifeboat.com/images/bill.gates.jpg" />
+                <Card.Img style={{ borderRadius: '50%' }} variant="top" src="https://lifeboat.com/images/bill.gates.jpg" />
               </div>
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title style={{ color: '#b8b8b8' }}>Card Title</Card.Title>
                 <Card.Text>
                   Some quick example text to build on the card title and make up the bulk of
                   the card's content.
               </Card.Text>
-                <p>Read more</p>
+                <Button>
+                  <FontAwesome
+                    name="facebook"
+                    size="1x"
+                    style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
+                  /></Button>
+                <Button>
+                  <FontAwesome
+                    name="twitter"
+                    size="1x"
+                    style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
+                  /></Button>
+                <Button>
+                  <FontAwesome
+                    name="instagram"
+                    size="1x"
+                    style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
+                  /></Button>
               </Card.Body>
             </Card>
           </Col>
           <Col lg={4} md={6} xsm={12} >
             <Card>
               <div>
-                <Card.Img style={{ borderRadius: '50%', width: '75% !important' }} variant="top" roundedCircle src="https://lifeboat.com/images/elon.musk.jpg" />
+                <Card.Img style={{ borderRadius: '50%', width: '75% !important' }} variant="top" src="https://lifeboat.com/images/elon.musk.jpg" />
               </div>
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title style={{ color: '#b8b8b8' }}>Card Title</Card.Title>
                 <Card.Text>
                   Some quick example text to build on the card title and make up the bulk of
                   the card's content.
             </Card.Text>
-                <p>Read more</p>
+                <Button>
+                  <FontAwesome
+                    name="facebook"
+                    size="1x"
+                    style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
+                  /></Button>
+                <Button>
+                  <FontAwesome
+                    name="twitter"
+                    size="1x"
+                    style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
+                  /></Button>
+                <Button>
+                  <FontAwesome
+                    name="instagram"
+                    size="1x"
+                    style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
+                  /></Button>
               </Card.Body>
             </Card>
           </Col>

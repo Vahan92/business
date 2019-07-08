@@ -1,6 +1,8 @@
 .investors {
   h2 {
-    text-align: center
+    text-align: center;
+    padding: 4rem 0;
+    color: $main-purple
   }
   div {
     display: flex;
@@ -17,7 +19,9 @@
       justify-content: space-evenly;
       flex-direction: column;
       img {
-        width: 100%;
+        display: block;
+        margin: 0 auto;
+        width: 60%;
       }
     }
   }

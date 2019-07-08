@@ -1,0 +1,44 @@
+.contact-us {
+  background-color: $div-background;
+  padding: 6rem 0;
+  div {
+  > p, > h2 {
+    text-align: center;
+  }
+  > h2 {
+    padding-bottom: 3rem;
+  }
+  a {
+    text-decoration: none
+  }   
+  form {
+    div {
+      div {
+        padding-bottom: 1rem
+      }
+    }
+  }
+  button {
+    width: 50%;
+    background-color: #7f4782;
+    border-color: #7f4782;
+  }
+  h2 {
+    color: black;
+  }
+  input {
+    box-shadow: 0 4px 5px -3px rgba(0, 0, 0, 0.2) ;
+  }
+  .changeable {
+    padding-left: 6rem;
+  }
+}
+}
+
+@media only screen and (max-width: 480px)  {
+  .changeable {
+    padding-left: 0;
+  } 
+}
+
+

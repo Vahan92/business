@@ -1,21 +1,33 @@
-.counting-divs {
-  margin-top: 3rem;
-  div {
-    text-align: center;
-    span {
-      font-size: 4rem;
-      &::after {
-        position: absolute;
-        content: "";
-        width: 50px;
-        height: 3px;
-        left: 50%;
-        top: 66%;
-        -webkit-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-        transform: translateX(-50%);
-        background: rgba(0, 0, 0, 0.3);
+.welcome {
+  padding-top: 6rem;
+  > div {
+    h4, span {
+      color: $main-purple;
+    }
+    > div:nth-child(2) {
+      padding-left: 4rem;
+    }
+    div:last-child {
+      div {
+        div {
+          text-align: center;
+          span {
+            font-size: 4rem;
+            &::after {
+              position: absolute;
+              content: "";
+              width: 50px;
+              height: 3px;
+              left: 50%;
+              top: 66%;
+              -webkit-transform: translateX(-50%);
+              -ms-transform: translateX(-50%);
+              transform: translateX(-50%);
+              background: rgba(0, 0, 0, 0.3);
+            }
+          }    
+        }
       }
-    }    
+    }
   }
 }
