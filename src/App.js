@@ -17,7 +17,7 @@ import './App.scss';
 function App() {
   return (
     <div className="App">
-      <NavNavigationBar />
+      <NavNavigationBar/>
       <Carousel/>
       <Solutions/>
       <Investors/>

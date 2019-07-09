@@ -9,6 +9,9 @@ const StyledFooter = styled.footer`
   @media (max-width: 768px) {
     padding: 3rem 2rem 0 2rem;
   }
+  div {
+    max-width:71.25rem;
+  }
   > div > div {
     padding-bottom: 4rem;
   }
