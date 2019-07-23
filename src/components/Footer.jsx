@@ -44,6 +44,7 @@ const Copyright = styled.p`
 `;
 
 function Footer() {
+  const info = ['About Us', 'Press Releases', 'Testimonials', 'Terms of Service', 'Privacy', 'Contact Us'];
   return (
     <StyledFooter>
       <Container fluid>
@@ -56,13 +57,10 @@ function Footer() {
               </Col>
               <Col sm={12} md={6}>
                 <h5>Features</h5>
-                <ul>
-                  <li><a href="#top"> About Us</a></li>
-                  <li><a href="#top"> Press Releases</a></li> 
-                  <li><a href="#top"> Testimonials</a></li> 
-                  <li><a href="#top"> Terms of Service</a></li> 
-                  <li><a href="#top"> Privacy</a></li> 
-                  <li><a href="#top"> Contact Us</a></li>                
+                <ul>                  
+                  {info.map(el => (
+                    <li key={el}><a href="#top">{el}</a></li>
+                  ))}
                 </ul>
               </Col>
             </Row>
